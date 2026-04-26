@@ -49,3 +49,15 @@ The designs were created to the following widths:
 - **Text Preset 7**: Karla Regular, 16px, 160% Line Height, 0px Letter Spacing
 - **Text Preset 8**: Karla Bold, 13px, 115% Line Height, 1.5px Letter Spacing
 
+## Spacing
+
+- spacing-0: 0px
+- spacing-100: 8px
+- spacing-200: 16px
+- spacing-300: 24px
+- spacing-400: 32px
+- spacing-500: 40px
+- spacing-600: 48px
+- spacing-700: 56px
+- spacing-800: 64px
+- spacing-1000: 80px
