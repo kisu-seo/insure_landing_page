@@ -31,17 +31,21 @@ The designs were created to the following widths:
 
 ## Typography
 
-### Body Copy
-
-- Font size: 16px
-
-### Headings
+### Fonts
 
 - Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
-- Weights: 400
-
-### Body
-
+  - Weights: 400 (Regular)
 - Family: [Karla](https://fonts.google.com/specimen/Karla)
-- Weights: 400, 700
+  - Weights: 400 (Regular), 700 (Bold)
+
+### Text Presets
+
+- **Text Preset 1**: DM Serif Display Regular, 72px, 90% Line Height, -1px Letter Spacing
+- **Text Preset 2**: DM Serif Display Regular, 56px, 100% Line Height, -0.8px Letter Spacing
+- **Text Preset 3**: DM Serif Display Regular, 48px, 100% Line Height, -0.5px Letter Spacing
+- **Text Preset 4**: DM Serif Display Regular, 40px, 100% Line Height, -0.5px Letter Spacing
+- **Text Preset 5**: DM Serif Display Regular, 28px, 133% Line Height, -0.5px Letter Spacing
+- **Text Preset 6**: Karla Bold, 20px, 200% Line Height, 1.5px Letter Spacing
+- **Text Preset 7**: Karla Regular, 16px, 160% Line Height, 0px Letter Spacing
+- **Text Preset 8**: Karla Bold, 13px, 115% Line Height, 1.5px Letter Spacing
 
