@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", serif;
+  --font-sans: "Karla", sans-serif;
+
+  --color-primary-950: #2D2641;
+  --color-primary-500: #96A9C6;
+  --color-neutral-950: #2C2830;
+  --color-neutral-700: #837D88;
+  --color-neutral-200: #DADADA;
+  --color-neutral-50: #FAFAFA;
+  --color-accent-pink: #C396C6;
+  --color-accent-purple: #9E96C6;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-neutral-50);
+}
