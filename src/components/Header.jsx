@@ -66,7 +66,7 @@ export default function Header() {
       {/* 모바일 전체화면 메뉴 오버레이 */}
       {isMenuOpen && (
         <div
-          className="fixed inset-x-0 top-[72px] bottom-0 bg-gray-950 flex flex-col items-center pt-12 overflow-hidden md:hidden"
+          className="fixed inset-x-0 top-[80px] bottom-0 bg-gray-950 flex flex-col items-center pt-10 px-6 overflow-hidden md:hidden"
           role="dialog"
           aria-modal="true"
           aria-label="모바일 메뉴"
@@ -79,12 +79,12 @@ export default function Header() {
             className="absolute bottom-0 left-0 w-full"
           />
 
-          <nav className="relative z-10 flex flex-col items-center gap-8 w-full px-6" aria-label="모바일 메뉴">
+          <nav className="relative z-10 flex flex-col items-center gap-6 w-full pt-0" aria-label="모바일 메뉴">
             {navLinks.map((link) => (
               <a
                 key={link}
                 href="#"
-                className="text-preset-6 text-white w-full text-center py-2"
+                className="text-preset-6 text-white w-full h-[40px] flex items-center justify-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link}
@@ -92,7 +92,7 @@ export default function Header() {
             ))}
             <a
               href="#"
-              className="text-preset-6 border-2 border-white text-white w-full text-center py-4 mt-2 hover:bg-white hover:text-gray-950 transition-colors"
+              className="text-preset-6 border-[1.5px] border-white text-white w-full h-[56px] flex items-center justify-center hover:bg-white hover:text-gray-950 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               VIEW PLANS

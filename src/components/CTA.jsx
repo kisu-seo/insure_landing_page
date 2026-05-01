@@ -1,7 +1,7 @@
 export default function CTA() {
   return (
     <section
-      className="relative bg-blue-950 overflow-hidden mx-6 my-16 px-8 py-16 text-center"
+      className="relative bg-blue-950 overflow-hidden mx-6 mt-[70px] mb-[140px] px-6 py-[72px] text-center"
       aria-label="서비스 소개 바로가기"
     >
       {/* 배경 패턴 */}
@@ -18,7 +18,7 @@ export default function CTA() {
         </h2>
         <a
           href="#"
-          className="inline-block text-preset-8 border-2 border-white text-white px-10 py-4 hover:bg-white hover:text-blue-950 transition-colors"
+          className="inline-flex w-[160px] h-[40px] items-center justify-center text-preset-8 border-[1.5px] border-white text-white hover:bg-white hover:text-blue-950 transition-colors"
           aria-label="서비스 작동 방식 알아보기"
         >
           HOW WE WORK
