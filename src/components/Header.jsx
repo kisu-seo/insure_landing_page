@@ -24,7 +24,7 @@ export default function Header() {
 
   return (
     <header className="relative z-50 bg-white">
-      <div className="flex items-center justify-between px-6 py-5">
+      <div className="flex items-center justify-between p-6">
         <a href="/" aria-label="Insure 홈으로 이동">
           <img src="/images/logo.svg" alt="Insure" />
         </a>
@@ -49,14 +49,14 @@ export default function Header() {
             <a
               key={link}
               href="#"
-              className="font-sans font-bold text-[13px] tracking-[1.5px] text-neutral-700 hover:text-neutral-950 transition-colors"
+              className="text-preset-8 text-gray-700 hover:text-gray-950 transition-colors"
             >
               {link}
             </a>
           ))}
           <a
             href="#"
-            className="font-sans font-bold text-[13px] tracking-[1.5px] border-2 border-neutral-950 text-neutral-950 px-6 py-3 hover:bg-neutral-950 hover:text-white transition-colors"
+            className="text-preset-8 border-2 border-gray-950 text-gray-950 px-6 py-3 hover:bg-gray-950 hover:text-white transition-colors"
           >
             VIEW PLANS
           </a>
@@ -66,7 +66,7 @@ export default function Header() {
       {/* 모바일 전체화면 메뉴 오버레이 */}
       {isMenuOpen && (
         <div
-          className="fixed inset-x-0 top-[72px] bottom-0 bg-[#2C2830] flex flex-col items-center pt-12 overflow-hidden md:hidden"
+          className="fixed inset-x-0 top-[72px] bottom-0 bg-gray-950 flex flex-col items-center pt-12 overflow-hidden md:hidden"
           role="dialog"
           aria-modal="true"
           aria-label="모바일 메뉴"
@@ -84,7 +84,7 @@ export default function Header() {
               <a
                 key={link}
                 href="#"
-                className="font-sans font-bold text-[20px] tracking-[1.5px] text-white w-full text-center py-2"
+                className="text-preset-6 text-white w-full text-center py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link}
@@ -92,7 +92,7 @@ export default function Header() {
             ))}
             <a
               href="#"
-              className="font-sans font-bold text-[20px] tracking-[1.5px] border-2 border-white text-white w-full text-center py-4 mt-2 hover:bg-white hover:text-neutral-950 transition-colors"
+              className="text-preset-6 border-2 border-white text-white w-full text-center py-4 mt-2 hover:bg-white hover:text-gray-950 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               VIEW PLANS

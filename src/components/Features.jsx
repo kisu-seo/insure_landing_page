@@ -4,9 +4,9 @@ export default function Features() {
   return (
     <section className="px-6 py-16 text-center" aria-label="우리가 다른 이유">
       {/* 구분선 */}
-      <div className="w-36 h-px bg-[#2D2641] mx-auto mb-8 opacity-30 md:hidden" aria-hidden="true" />
+      <div className="w-36 h-px bg-blue-950 mx-auto mb-8 opacity-30 md:hidden" aria-hidden="true" />
 
-      <h2 className="font-serif text-[48px] leading-[100%] tracking-[-0.5px] text-[#2D2641] mb-16">
+      <h2 className="text-preset-3 text-blue-950 mb-16">
         We're different
       </h2>
 
@@ -19,10 +19,10 @@ export default function Features() {
               aria-hidden="true"
               className="mb-8 w-20 h-20"
             />
-            <h3 className="font-serif text-[28px] leading-[133%] tracking-[-0.5px] text-[#2D2641] mb-4">
+            <h3 className="text-preset-5 text-blue-950 mb-4">
               {feature.title}
             </h3>
-            <p className="font-sans text-[16px] leading-[160%] text-[#837D88]">
+            <p className="text-preset-7 text-gray-700">
               {feature.desc}
             </p>
           </article>

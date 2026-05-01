@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative bg-[#2D2641] overflow-hidden" aria-label="메인 배너">
+    <section className="relative bg-blue-950 overflow-hidden" aria-label="메인 배너">
       {/* 모바일: 이미지가 위 */}
       <img
         src="/images/image-intro-mobile.jpg"
@@ -23,21 +23,21 @@ export default function Hero() {
       />
 
       {/* 텍스트 영역 */}
-      <div className="relative z-10 px-6 pt-16 pb-24 text-center md:text-left">
+      <div className="relative z-10 px-6 py-[93px] text-center md:text-left">
         {/* 데스크톱용 구분선 */}
         <div className="hidden md:block w-36 h-px bg-white mb-12 opacity-50" aria-hidden="true" />
 
-        <h1 className="font-serif text-[48px] leading-[100%] tracking-[-0.5px] text-white mb-6">
+        <h1 className="text-preset-3 text-white mb-6">
           Humanizing your insurance.
         </h1>
-        <p className="font-sans text-[16px] leading-[160%] text-[#96A9C6] mb-8 max-w-sm mx-auto md:mx-0">
+        <p className="text-preset-7 text-blue-500 mb-8 max-w-sm mx-auto md:mx-0">
           Get your life insurance coverage easier and faster. We blend our expertise
           and technology to help you find the plan that's right for you. Ensure you
           and your loved ones are protected.
         </p>
         <a
           href="#"
-          className="inline-block font-sans font-bold text-[13px] tracking-[1.5px] border-2 border-white text-white px-8 py-4 hover:bg-white hover:text-[#2D2641] transition-colors"
+          className="inline-block text-preset-8 border-2 border-white text-white px-8 py-4 hover:bg-white hover:text-blue-950 transition-colors"
           aria-label="보험 플랜 보기"
         >
           VIEW PLANS

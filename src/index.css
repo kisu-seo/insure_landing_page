@@ -4,17 +4,78 @@
   --font-serif: "DM Serif Display", serif;
   --font-sans: "Karla", sans-serif;
 
-  --color-primary-950: #2D2641;
-  --color-primary-500: #96A9C6;
-  --color-neutral-950: #2C2830;
-  --color-neutral-700: #837D88;
-  --color-neutral-200: #DADADA;
-  --color-neutral-50: #FAFAFA;
-  --color-accent-pink: #C396C6;
-  --color-accent-purple: #9E96C6;
+  --color-blue-950: #2D2641;
+  --color-blue-500: #96A9C6;
+  --color-gray-950: #2C2830;
+  --color-gray-700: #837D88;
+  --color-gray-200: #DADADA;
+  --color-gray-50: #FAFAFA;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-pink-400: #C396C6;
+  --color-purple-500: #9E96C6;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--color-neutral-50);
+  background-color: var(--color-gray-50);
+}
+
+@utility text-preset-1 {
+  font-family: var(--font-serif);
+  font-size: 72px;
+  line-height: 90%;
+  letter-spacing: -1px;
+}
+
+@utility text-preset-2 {
+  font-family: var(--font-serif);
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: -0.8px;
+}
+
+@utility text-preset-3 {
+  font-family: var(--font-serif);
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
+@utility text-preset-4 {
+  font-family: var(--font-serif);
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
+@utility text-preset-5 {
+  font-family: var(--font-serif);
+  font-size: 28px;
+  line-height: 133%;
+  letter-spacing: -0.5px;
+}
+
+@utility text-preset-6 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 200%;
+  letter-spacing: 1.5px;
+}
+
+@utility text-preset-7 {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0px;
+}
+
+@utility text-preset-8 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 115%;
+  letter-spacing: 1.5px;
 }

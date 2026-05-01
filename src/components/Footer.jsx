@@ -9,9 +9,9 @@ const socialIcons = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#FAFAFA]" aria-label="하단 정보">
+    <footer className="bg-gray-50" aria-label="하단 정보">
       {/* 상단: 로고 + 소셜 */}
-      <div className="relative overflow-hidden bg-[#FAFAFA] px-6 py-10 flex flex-col items-center gap-8">
+      <div className="relative overflow-hidden bg-gray-50 px-6 py-10 flex flex-col items-center gap-8">
         {/* 배경 패턴 */}
         <img
           src="/images/bg-pattern-footer-mobile.svg"
@@ -25,7 +25,7 @@ export default function Footer() {
             <img src="/images/logo.svg" alt="Insure" />
           </a>
 
-          <div className="w-full h-px bg-[#837D88] opacity-30" aria-hidden="true" />
+          <div className="w-full h-px bg-gray-700 opacity-30" aria-hidden="true" />
 
           <nav className="flex items-center gap-4" aria-label="소셜 미디어">
             {socialIcons.map((icon) => (
@@ -46,7 +46,7 @@ export default function Footer() {
       <div className="px-6 py-10 flex flex-col items-center gap-10">
         {footerLinks.map((section) => (
           <div key={section.group} className="w-full text-center">
-            <h3 className="font-sans font-bold text-[13px] tracking-[1.5px] text-[#837D88] mb-6">
+            <h3 className="text-preset-8 text-gray-700 mb-6">
               {section.group}
             </h3>
             <ul className="flex flex-col gap-3">
@@ -54,7 +54,7 @@ export default function Footer() {
                 <li key={link}>
                   <a
                     href="#"
-                    className="font-sans font-bold text-[13px] tracking-[1.5px] text-[#2D2641] hover:underline"
+                    className="text-preset-8 text-blue-950 hover:underline"
                   >
                     {link}
                   </a>
